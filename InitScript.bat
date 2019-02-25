@@ -1,0 +1,1 @@
+java -cp ".;.\supportlibraries\CRAFT_SupportLibraries.jar;.\supportlibraries\selenium-server-standalone-2.35.0.jar" allocator.Allocator

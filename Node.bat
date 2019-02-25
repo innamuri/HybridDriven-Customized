@@ -1,0 +1,1 @@
+java -jar .\SupportLibraries\selenium-server-standalone-2.35.0.jar -userExtensions supportlibraries\user-extensions.js -role rc -hubHost localhost -browser browserName=*firefox,seleniumProtocol=Selenium

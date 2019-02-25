@@ -1,0 +1,3 @@
+Keep your business components here. These components are the building blocks to build your test cases.
+
+Business components may be further classified into navigational components, functional components, verification components, and so on (if needed).

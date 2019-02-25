@@ -1,0 +1,1 @@
+java -jar .\supportlibraries\selenium-server-standalone-2.35.0.jar -port 4444 -role hub

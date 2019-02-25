@@ -1,0 +1,22 @@
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at allocator.ParallelRunner.invokeTestScript(ParallelRunner.java:63)
+	at allocator.ParallelRunner.run(ParallelRunner.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HYD002001', ip: '172.28.18.114', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:74)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at supportlibraries.WebDriverFactory.getDriver(WebDriverFactory.java:28)
+	at supportlibraries.DriverScript.initializeWebDriver(DriverScript.java:121)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:80)
+	... 9 more

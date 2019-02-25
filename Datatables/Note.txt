@@ -1,0 +1,3 @@
+Keep your datatables here, named after each test scenario being automated. Each datatable should contain the business flow and test data for all test cases in the scenario.
+
+Also keep your common test data (data shared by multiple test cases) here.

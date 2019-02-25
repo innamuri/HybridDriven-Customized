@@ -1,0 +1,3 @@
+Keep your application independent functions here (say file handling, date manipulation, etc). All functions required for the functioning of the framework are already present inside "CRAFT_Support.vbs".
+
+A centralised repository of support functions is available in ACOE's Libex tool. LibexOnline can be accessed at: http://libex.cognizant.com. A Windows version of the tool is also available, which is integrated with iFrame by default for CRAFT framework.
